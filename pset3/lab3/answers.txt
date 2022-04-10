@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Takes way less time for txt files which dont require any swaps (which have numbers already in order)
+
+sort2 uses: Merge sort
+
+How do you know?: Takes way less time than other methods
+
+sort3 uses: Selection sort
+
+How do you know?: Takes almost same time for diffrent types of files
