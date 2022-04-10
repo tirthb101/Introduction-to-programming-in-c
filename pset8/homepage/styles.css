@@ -1,0 +1,51 @@
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.top {
+  width: auto;
+  background-color: #0c0032;
+  color: #ffffff;
+  text-align:center;
+  padding: 25px;
+
+}
+
+.top2 {
+  width: auto;
+  background-color: #190061;
+  color: #ffffff;
+  text-align:left;
+  padding: 1px;
+  padding-left: 10px;
+}
+
+.message {
+  padding-left: 20px;
+  font-size: 85%;
+  border-top: hidden;
+  border-right: hidden;
+  border-bottom: hidden;
+  border-left: 4px solid blue;
+  background-color: lightblue;
+}
+
+.form {
+  background-color: lightblue;
+  padding: 35px;
+}
+
+li {
+  background-color: lightblue;
+}
+
+.mid {
+  background-color: lightblue;
+  padding: 35px;
+}
+
+
+
+.submit {
+  text-align: right;
+}
