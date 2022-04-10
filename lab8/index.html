@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src= "script.js"></script>
+
+        <title>Trivia!</title>
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Area 51 is located in which state?</h3>
+
+                <!-- options-->
+                <button onclick= "checkmcq(event)">New mexico</button>
+                <button onclick= "checkmcq(event)">Nevada</button>
+                <button onclick= "checkmcq(event)">Arizona</button>
+                <button onclick= "checkmcq(event)">New york</button>
+                <br>
+                <br>
+                <button id = "mcqresult" class= "result"></button>
+
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Which country is surrounded by arabian ocene, indian ocene and bay of bangal?</h3>
+
+                <!-- TODO: Add free response question here -->
+                <input id = "text_ans" type = "text" placeholder = "Enter your answer">
+                <button id = "check_ans">Check answer</button>
+                <br>
+                 <br>
+                <button id = "resultans" class= "result"></button>
+
+            </div>
+
+        </div>
+    </body>
+</html>
